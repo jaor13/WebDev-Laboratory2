@@ -28,6 +28,7 @@
                         <li class="{{ request()->is('education-experience') ? '' : '' }}"><a href="{{ route('education-experience') }}"><span>Education & Experience</span></a></li>
                         <li class="{{ request()->is('project-skills') ? 'active' : '' }}"><a href="{{ route('project-skills') }}"><span>Projects & Skills</span></a></li>
                         <li class="{{ request()->is('about') ? '' : '' }}"><a href="{{ route('about') }}"><span>About</span></a></li>
+                        <li class="{{ request()->is('contact-us') ? '' : '' }}"><a href="{{ route('contact-us') }}"><span>Contact Us</span></a></li>
                     </ul>
                 </nav>
             </div>
