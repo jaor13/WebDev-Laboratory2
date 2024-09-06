@@ -12,7 +12,10 @@ Route::get('/about', function () {
 
 Route::redirect('/home', '/'); //redirects /home to / (which is index, named as homepage) 
 
-//contact form view
+Route::get('/contact-us', function () {
+    return view('contact-us'); //named route that returns a view for the contact-us page
+})->name('contact-us');
+
 
 /* route with required parameter
 Route::get('/user/{username}', function ($username) {
@@ -31,19 +34,14 @@ Route::get('/user/{username?}', function ($username = null) { //route with regul
     if (!preg_match('/^[a-zA-Z]+$/', $username)) {
         $username = 'Guest';
     }
-    return view('index', ['username' => $username]);
+    return view('index', ['username' => $username]); //passes the $username variable to the view
 });
 
 
 Route::get('/education-experience', function () {
     return view('education-experience');
-})->name('education-experience');
+})->name('education-experience');//named route that returns a view for the education-experience page
 
 Route::get('/project-skills', function () {
-    return view('project-skills');
+    return view('project-skills');//named route that returns a view for the project-skills page
 })->name('project-skills');
-
-
-Route::get('/contact-us', function () {
-    return view('contact-us');
-})->name('contact-us');
