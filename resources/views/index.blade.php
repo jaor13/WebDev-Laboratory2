@@ -28,10 +28,10 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="{{ request()->is('/') ? 'active' : '' }}"><a href="{{ route('homepage') }}"> <span>Home</span></a></li>
-                    <li class="{{ request()->is('education-experience') ? 'active' : '' }}"><a href="{{ route('education-experience') }}"> <span>Education & Experience</span></a></li>
-                    <li class="{{ request()->is('project-skills') ? 'active' : '' }}"><a href="{{ route('project-skills') }}"> <span>Projects & Skills</span></a></li>
-                    <li class="{{ request()->is('about') ? 'active' : '' }}"><a href="{{ route('about') }}"><span>About</span></a></li>
-                    <li class="{{ request()->is('contact-us') ? 'active' : '' }}"><a href="{{ route('contact-us') }}"><span>Contact Us</span></a></li>
+                    <li class="{{ request()->is('pages/education-experience') ? 'active' : '' }}"><a href="{{ route('education-experience') }}"> <span>Education & Experience</span></a></li>
+                    <li class="{{ request()->is('pages/project-skills') ? 'active' : '' }}"><a href="{{ route('project-skills') }}"> <span>Projects & Skills</span></a></li>
+                    <li class="{{ request()->is('pages/about') ? 'active' : '' }}"><a href="{{ route('about') }}"><span>About</span></a></li>
+                    <li class="{{ request()->is('pages/contact-us') ? 'active' : '' }}"><a href="{{ route('contact-us') }}"><span>Contact Us</span></a></li>
                 </ul>
             </nav>
 
