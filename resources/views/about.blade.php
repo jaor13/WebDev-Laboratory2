@@ -27,6 +27,7 @@
                             <li class="{{ request()->is('education-experience') ? '' : '' }}"><a href="{{ route('education-experience') }}"><span>Education & Experience</span></a></li>
                             <li class="{{ request()->is('project-skills') ? '' : '' }}"><a href="{{ route('project-skills') }}"><span>Projects & Skills</span></a></li>
                             <li class="{{ request()->is('about') ? 'active' : '' }}"><a href="{{ route('about') }}"><span>About</span></a></li>
+                            <li class="{{ request()->is('contact-us') ? '' : '' }}"><a href="{{ route('contact-us') }}"><span>Contact Us</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -34,10 +35,10 @@
 
         <main>
             <section class="about-me container">
-                <div class="container">
+                <div class="container" id="cont-abt">
                     <div class="row">
                         <div class="col-lg-4" data-aos="fade-right">
-                            <img src="{{ asset('asset/image/mypic.png') }}" class="img-fluid" alt="My Picture">
+                            <img src="{{ asset('asset/image/jar.png') }}" class="img-fluid" alt="My Picture">
                         </div>
                         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                             <p>I’m an undergraduate student with a strong passion for the IT field, particularly in networking, where I enjoy working with routers, PC configurations, and various setups. While I also have an interest in coding, my enthusiasm leans more towards front-end development. I love creating intuitive and visually appealing user interfaces, blending my technical skills with creativity to bring ideas to life.</p>
@@ -58,6 +59,58 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="container" id="cont-abt">
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="{{ asset('asset/image/pd.png') }}" class="img-fluid" alt="My Picture">
+                        </div>
+                        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <p>I’m an undergraduate student with a strong passion for the IT field, particularly in networking, where I enjoy working with routers, PC configurations, and various setups. While I also have an interest in coding, my enthusiasm leans more towards front-end development. I love creating intuitive and visually appealing user interfaces, blending my technical skills with creativity to bring ideas to life.</p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 13 June 2003</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +63 908-593-0667</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Tabaco, Albay</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> rjamesanthony48@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="cont-abt">
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="{{ asset('asset/image/jar.png') }}" class="img-fluid" alt="My Picture">
+                        </div>
+                        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <p>I’m an undergraduate student with a strong passion for the IT field, particularly in networking, where I enjoy working with routers, PC configurations, and various setups. While I also have an interest in coding, my enthusiasm leans more towards front-end development. I love creating intuitive and visually appealing user interfaces, blending my technical skills with creativity to bring ideas to life.</p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 13 June 2003</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +63 908-593-0667</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Tabaco, Albay</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> rjamesanthony48@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </section>
         </main>
 

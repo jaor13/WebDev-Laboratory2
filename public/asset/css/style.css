@@ -344,7 +344,24 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     position:relative;
   }
-  
+
+  .cont{
+    background-color: #09203a; 
+    border-radius: 10px;        
+    padding: 20px;              
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    position:relative;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom:40px;
+  }
+
+  #btn-sub{
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+  }
+
+
   .portfolio{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -373,7 +390,8 @@ body {
   }
   
   .content p{
-    margin-top: 20px;
+    margin-top: 80px;
+    text-align: justify;
   }
   
   
@@ -401,7 +419,7 @@ body {
     color: #fff;
   }
   
-  .skills .icon-box:hover {
+  .skills .icon-box:hover{
     background: #042b56eb;
   }
   
@@ -467,6 +485,11 @@ body {
   .educ-exp .icon-box:hover {
     background: #042e5f;
     border-color: #1c7d32;
+  }
+
+  #cont-abt:hover{
+    background: #042e5f;
+    border-color: #1c7d32; 
   }
   
   .educ-exp .icon-box:hover .icon {
@@ -597,3 +620,62 @@ body {
     bottom: 15px;
     right: 15px;
   }
+
+  
+  .modal-title,.modal-body{
+    color: #2a322c;
+    text-align: center;
+  }
+
+  .modal-content {
+    border-radius: 12px;
+    background: rgba(255,255,255,0.90);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+
+  .modal-header{
+    margin-top: 20px;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modal-footer,.modal-title,.modal-header {
+    border: none !important; 
+}
+
+  .modal-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: center; 
+    border-top: none; 
+    margin-bottom: 15px;
+}
+
+.btn{
+  height: 50px;
+  width:160px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #849497;
+  border:none;
+}
+
+#cont-abt{
+  background: #09203a;
+  border-radius: 10px;
+  position:relative;
+  padding:40px;
+  margin-bottom: 20px;
+  transition: all ease-in-out 0.3s;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
