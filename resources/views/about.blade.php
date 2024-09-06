@@ -70,7 +70,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 8 Septe,ber 2003</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 8 September 2003</li>
                                         <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +63 970-610-4541</li>
                                     </ul>
                                 </div>
