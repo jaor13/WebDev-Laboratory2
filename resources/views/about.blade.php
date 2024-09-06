@@ -63,7 +63,7 @@
                 <div class="container" id="cont-abt">
                     <div class="row">
                         <div class="col-lg-4" data-aos="fade-right">
-                            <img src="{{ asset('asset/image/jar.png') }}" class="img-fluid" alt="My Picture">
+                            <img src="{{ asset('asset/image/pd.png') }}" class="img-fluid" alt="My Picture">
                         </div>
                         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                             <p>I’m an undergraduate student with a strong passion for the IT field, particularly in networking, where I enjoy working with routers, PC configurations, and various setups. While I also have an interest in coding, my enthusiasm leans more towards front-end development. I love creating intuitive and visually appealing user interfaces, blending my technical skills with creativity to bring ideas to life.</p>
